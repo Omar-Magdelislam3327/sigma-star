@@ -1,0 +1,119 @@
+@media(max-width:776px){
+    header{
+        overflow: hidden;
+    }
+    header nav{
+        width: 100%;
+        border: 1px solid orange;   
+
+             
+    }
+    header nav .res{
+        display: block;
+    }
+    header .links {
+        display: none;
+    }
+    .home img{
+        display: none;
+    }
+    .home .heading{
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .container{
+        margin-top: 40px;
+    }
+    .who{
+        /* flex-wrap: wrap; */
+        /* width: 100%; */
+        justify-content: center;
+    }
+    .who .about-image img{
+        display:none;
+    }
+    .who .text{
+        width: 90%;
+        margin: auto;
+        /* margin-left: 200px; */
+        
+        & h3{
+            text-align: center;
+        }
+        & p{
+            width: 100%;
+        }
+    }
+    .contact .boxes{
+        & .con-form{
+            width: 80%;
+            margin: auto;
+            
+        }
+        & .info{
+            width: 80%;
+            margin-top: 70px;
+            
+        }
+    }
+}
+@media(max-width:576px){
+    header{
+        overflow: hidden;
+    }
+    header nav{
+        width: 100%;
+        border: 1px solid orange;   
+             
+    }
+    header nav .res{
+        display: block;
+    }
+    header .links {
+        display: none;
+    }
+    .home img{
+        display: none;
+    }
+    .home .heading{
+        width: 90%;
+        margin: auto;
+        padding-top: 75px;
+    }
+    .container{
+        margin-top: 40px;
+    }
+    .who{
+        /* flex-wrap: wrap; */
+        /* width: 100%; */
+        justify-content: center;
+    }
+    .who .about-image img{
+        display:none;
+    }
+    .who .text{
+        width: 90%;
+        margin: auto;
+        /* margin-left: 200px; */
+        
+        & h3{
+            text-align: center;
+        }
+        & p{
+            width: 100%;
+        }
+    }
+    .contact .boxes{
+        & .con-form{
+            width: 80%;
+            margin: auto;
+            
+        }
+        & .info{
+            width: 80%;
+            margin-top: 70px;
+            
+        }
+    }
+}
